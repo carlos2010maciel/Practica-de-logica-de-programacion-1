@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+
+<!-- 
+¿ALCOHOL O GASOLINA?
+
+Llegó la hora de que realices un ejercicio más complejo, utiliza todo lo que aprendiste hasta ahora, la gran cuestión es interpretar lo que se debe hacer. No necesitas dar una respuesta aquí, solo hacer el código y probarlo. Al hacer clic en continuar, se mostrará la respuesta del instructor, pero antes de hacer aquello, intenta resolver el problema por tu cuenta. ¡Vamos, manos a la obra!
+
+1.- Crea un nuevo archivo, llámalo calculo_consumo.html y guárdalo dentro de la carpeta que nombramos Lógica de Programación. No olvides la estructura mínima que tenemos que tener para cada uno de los nuevos programas.
+
+2.- En el mundo HTML coloca un título con el siguiente contenido: <h3>¿Alcohol o gasolina?</h3>. Guarda el programa y ábrelo en el navegador.
+
+3.- Problema: Si un carro tiene un tanque de 40 litros. Usando gasolina y consumiendo todo el tanque se hace un camino de 480 kilómetros. ¿Cuál es el consumo de gasolina? Para calcular el consumo: divide la distancia recorrida entre la cantidad de litros gastados. Imprime el valor utilizando document.write. Organiza las cuentas en variables.
+
+4.- Por otro lado, con el alcohol: el mismo tanque de 40 litros hace un recorrido de 300 kilómetros. ¿Cuál es el consumo de alcohol/km?
+
+En el mundo de la programación, forma parte del papel de un programador entender un problema y materializar su solución en un código. -->
+
+<h3>¿Alcohol o gasolina?</h3>
+
+<script>
+	/* RECORRIDO CON GASOLINA*/
+	
+	var litrosTanqueCombustible = 40;
+	var kilometrosRecorridos = 480;
+
+	var promedio = (kilometrosRecorridos/litrosTanqueCombustible);
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("El consumo promedio de gasolina es de " + promedio + " litros por kilómetro recorrido.");
+	document.write("<br>");
+	document.write("<br>");
+	/* RECORRIDO CON ALCOHOL*/
+	
+	var litrosTanqueCombustible = 40;
+	var kilometrosRecorridos = 300;
+
+	var promedio = (kilometrosRecorridos/litrosTanqueCombustible);
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("El consumo promedio de alcohol es de " + promedio + " litros por kilómetro recorrido.");
+	document.write("<br>");
+	document.write("<br>");
+
+
+</script>
